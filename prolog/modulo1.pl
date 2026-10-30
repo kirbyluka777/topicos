@@ -111,7 +111,7 @@ menu :-
     !.
 
 seleccion(1) :-
-    cargar_vuelos('vuelos.txt'),
+    cargar_vuelos('../vuelos.txt'),
     writeln('Vuelos cargados correctamente.').
 
 seleccion(2) :-
